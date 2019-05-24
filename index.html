@@ -9,73 +9,199 @@
     <link rel="stylesheet" href="css/slateblue.css">
     <!-- common css -->
     <link rel="stylesheet" href="css/common.css">
-    <title>Hello, world!</title>
+    <title>bootcatch clean blog!</title>
   </head>
   <body>
     <!-- navbar start -->
-    <div class="image" style="background-image: url('img/first-girl.jpg')">
-        <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="#">Blog</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Sample Post
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Login </a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#">SignUP </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
-            <div class="text">
-                <h1>Bootcatch Clean Blog</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="index.html">Bootcatch</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Custom
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
             </div>
-        </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Sample Post</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign up</a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+
+    <!-- blog intro -->
+    <div class="blog-intro justify-content-center d-flex align-items-center" style="background-image: url('img/intro.jpg')">
+      <div class="text">
+        <h1>
+          Bootcatch Clean Blog
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+      </div>
     </div>
-    <!-- end navbar -->
+
     <!-- blogs start-->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="media">
-                  <div class="media-body">
-                    <h5 class="mt-0 mb-1">Media object</h5>
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                  </div>
-                  <img src="..." class="ml-3" alt="...">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-4">
+                    <img src="img/girl2.jpg"  class="img-fluid mr-3" alt="...">
                 </div>
+                <div class="col-md-8">
+                    <a href="index3.html" target="_blank">
+                        <h2 class="mt-0 mb-1">Green Tea is good for Health!</h2>
+                    </a>
+                    <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. </p>
+                </div>
+                <div class="w-100 pr-3 pl-3">
+                  <hr>
+                    <div class="footer">
+                      <span class="font-italic">Posted by <a href="#">Bootcatch Team</a> on <span class="text-primary"> September 24, 2019</span></span>
+                    </div>
+                  <hr>
+                </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-4">
+                      <img src="img/girl3.jpg"  class="img-fluid mr-3" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                      <a  href="index3.html" target="_blank">
+                          <h2 class="mt-0 mb-1">Celebrating Diwali festival.</h2>
+                      </a>
+                      <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. </p>
+                  </div>
+                  <div class="w-100 pr-3 pl-3">
+                    <hr>
+                      <div class="footer">
+                          <span class="font-italic">Posted by <a href="#">Bootcatch Team</a> on <span class="text-primary"> September 24, 2019</span></span>
+                      </div>
+                    <hr>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-4">
+                      <img src="img/girl4.jpg"  class="img-fluid mr-3" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                      <a  href="index3.html" target="_blank">
+                          <h2 class="mt-0 mb-1">Celebrating Diwali festival.</h2>
+                      </a>
+                      <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. </p>
+                  </div>
+                  <div class="w-100 pr-3 pl-3">
+                    <hr>
+                      <div class="footer">
+                          <span class="font-italic">Posted by <a href="#">Bootcatch Team</a> on <span class="text-primary"> September 24, 2019</span></span>
+                      </div>
+                    <hr>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-4">
+                      <img src="img/girl2.jpg"  class="img-fluid mr-3" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                      <a  href="index3.html" target="_blank">
+                          <h2 class="mt-0 mb-1">Green Tea is good for Health!</h2>
+                      </a>
+                      <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. </p>
+                  </div>
+                  <div class="w-100 pr-3 pl-3">
+                    <hr>
+                      <div class="footer">
+                        <span class="font-italic">Posted by <a href="#">Bootcatch Team</a> on <span class="text-primary"> September 24, 2019</span></span>
+                      </div>
+                    <hr>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="img/girl3.jpg"  class="img-fluid mr-3" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <a  href="index3.html" target="_blank">
+                            <h2 class="mt-0 mb-1">Celebrating Diwali festival.</h2>
+                        </a>
+                        <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. </p>
+                    </div>
+                    <div class="w-100 pr-3 pl-3">
+                      <hr>
+                        <div class="footer">
+                            <span class="font-italic">Posted by <a href="#">Bootcatch Team</a> on <span class="text-primary"> September 24, 2019</span></span>
+                        </div>
+                      <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="img/girl4.jpg"  class="img-fluid mr-3" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <a  href="index3.html" target="_blank">
+                            <h2 class="mt-0 mb-1">Celebrating Diwali festival.</h2>
+                        </a>
+                        <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. </p>
+                    </div>
+                    <div class="w-100 pr-3 pl-3">
+                      <hr>
+                        <div class="footer">
+                            <span class="font-italic">Posted by <a href="#">Bootcatch Team</a> on <span class="text-primary"> September 24, 2019</span></span>
+                        </div>
+                      <hr>
+                    </div>
+                </div>
+            </div>
+            <!-- pagination -->
+            <div class="w-100 justify-content-center d-flex">
+              <nav aria-label="...">
+                <ul class="pagination">
+                  <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item active" aria-current="page">
+                    <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                  </li>
+                </ul>
+              </nav>
             </div>
         </div>
     </div>
     <!-- ends blogs -->
+
+    <!-- footer -->
+    <div class="blog-footer py-3 text-center bg-light">
+      <p class="m-0">2019 © Copyright by <a href="#">Bootcatch.com</a>, Made with <a href="http://www.bootcatch.com/slateblue/alerts" target="_blank">SlatelBlue Theme</a></p>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
