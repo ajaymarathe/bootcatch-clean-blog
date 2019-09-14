@@ -12,6 +12,10 @@ bootcatch-clean-blog theme is based on bootstrap 4.3 version, by bootcatch team.
 
 Just clone the whole repository - `git clone https://github.com/ajaymarathe/bootcatch-clean-blog.git`
 
+## Live Preview 
+
++ https://ajaymarathe.github.io/bootcatch-clean-blog/index.html
+
 ## Author
 
 Ajay Marathe
