@@ -15,6 +15,7 @@ Just clone the whole repository - `git clone https://github.com/ajaymarathe/boot
 ## Live Preview 
 
 + https://ajaymarathe.github.io/bootcatch-clean-blog/index.html
++ https://ajaymarathe.github.io/bootcatch-clean-blog/index3.html
 
 ## Author
 
